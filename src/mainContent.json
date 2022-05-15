@@ -12,10 +12,16 @@
   "subSectionTitle": "Public Content",
   "subSectionContent": [
     {
+      "title": "Multithreading with Web Worker in React",
+      "description": "Javascript is a single-threaded language, No matter what async operations you use like promises, async, await, settimeout, etc.. it all ends...",
+      "url": "https://dev.to/blessonabraham/multithreading-with-web-worker-in-react-3nic",
+      "tags": ["#Article", "#dev.to", "#May 03"]
+    },
+    {
       "title": "Building Micro Frontend with React & Module Federation",
       "description": "We will be creating a production-ready micro-front end app using React, Redux, Typescript, Tailwind CSS, React Router, and Webpack but the scope of the article...",
       "url": "https://dev.to/blessonabraham/building-micro-frontend-with-react-module-federation-3j46",
-      "tags": ["#Article", "#dev.to", "#Jun 10"]
+      "tags": ["#Article", "#dev.to", "#May 01"]
     }
   ]
 }
