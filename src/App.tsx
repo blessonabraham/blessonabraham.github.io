@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <div className='flex flex-col items-center bg-white h-max'>
+    <div className='flex flex-col items-center bg-white h-max font-sans'>
 
       <div className='mt-20 w-10/12 mb-16'>
 
@@ -61,7 +61,7 @@ function App() {
 
         <div className='text-2xl mt-10 text-gray-700 font-bold'>{mainContent?.subSectionTitle}</div>
 
-        <div className='mt-5 flex flex-row flex-wrap gap-5 justify-between '>
+        <div className='mt-5 flex flex-row flex-wrap gap-5 justify-start '>
 
           {mainContent?.subSectionContent?.map((content) => (
             <a target="_blank" href={content?.url}>
