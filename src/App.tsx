@@ -1,8 +1,22 @@
+import { useEffect, useState } from 'react';
 import { LinkedinSVG, GithubSVG, TwitterSVG, MailSVG, DownloadSVG } from './SharedIcons';
+import { MainContent } from './types';
 
 export const description = "Proficient in React, Angular, Nodejs, Springboot, and CI/CD techniques for multi-tier architecture development. Ability to quickly adapt to new frameworks and languages, as well as experience in developing and managing cloud applications. Looking forward to playing a vital role in achieving organizational goals in a challenging environment and, learning new skills along the way."
 
 function App() {
+
+  const [mainContent, setMainContent] = useState<MainContent>()
+
+  useEffect(() => {
+    const getData = async () => {
+      const response = await fetch('https://raw.githubusercontent.com/blessonabraham/blessonabraham.github.io/master/tsconfig.json')
+      console.log(await response.text())
+    }
+    getData()
+  }, [])
+
+
   return (
     <div className='flex flex-col items-center bg-white h-max'>
 
