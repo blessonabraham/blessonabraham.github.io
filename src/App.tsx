@@ -10,8 +10,10 @@ function App() {
 
   useEffect(() => {
     const getData = async () => {
-      const response = await fetch('https://raw.githubusercontent.com/blessonabraham/blessonabraham.github.io/master/tsconfig.json')
-      console.log(await response.text())
+      const response = await fetch('https://raw.githubusercontent.com/blessonabraham/blessonabraham.github.io/master/src/mainContent.json')
+      const data = await response.json()
+      setMainContent(data)
+      console.log(data)
     }
     getData()
   }, [])
@@ -22,8 +24,8 @@ function App() {
 
       <div className='mt-20 w-10/12 mb-16'>
 
-        <div className='text-6xl text-gray-600 font-bold'>Blesson Abraham</div>
-        <div className='text-2xl text-gray-500 font-bold'>Full Stack Engineer | Google Cloud Certified</div>
+        <div className='text-6xl text-gray-600 font-bold'>{mainContent?.mainTitle}</div>
+        <div className='text-2xl text-gray-500 font-bold'>{mainContent?.subTitle}</div>
 
         <div className='flex mt-8 gap-4'>
 

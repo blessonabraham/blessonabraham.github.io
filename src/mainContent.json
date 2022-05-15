@@ -8,5 +8,14 @@
     "mailid": "https://www.linkedin.com/in/blessonabraham95/",
     "download": "https://www.linkedin.com/in/blessonabraham95/"
   },
-  "description":"Proficient in React, Angular, Nodejs, Springboot, and CI/CD techniques for multi-tier architecture development. Ability to quickly adapt to new frameworks and languages, as well as experience in developing and managing cloud applications. Looking forward to playing a vital role in achieving organizational goals in a challenging environment and, learning new skills along the way."
+  "description": "Proficient in React, Angular, Nodejs, Springboot, and CI/CD techniques for multi-tier architecture development. Ability to quickly adapt to new frameworks and languages, as well as experience in developing and managing cloud applications. Looking forward to playing a vital role in achieving organizational goals in a challenging environment and, learning new skills along the way.",
+  "subSectionTitle": "Public Content",
+  "subSectionContent": [
+    {
+      "title": "Building Micro Frontend with React & Module Federation",
+      "description": "We will be creating a production-ready micro-front end app using React, Redux, Typescript, Tailwind CSS, React Router, and Webpack but the scope of the article...",
+      "url": "https://dev.to/blessonabraham/building-micro-frontend-with-react-module-federation-3j46",
+      "tags": ["#Article", "#dev.to", "#Jun 10"]
+    }
+  ]
 }
